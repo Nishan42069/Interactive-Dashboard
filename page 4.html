@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        
+        <title>Web Interactive Dashboard</title>
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <aside>
+                <div class="top">
+                    <h2><span class="primary">Schools</span><span class="danger "> of Kathmandu</span></h2>
+                 <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                 </div>       
+    
+                </div>
+                <div class="sidebar">
+                    <a href="index.html ">
+                        <span class="material-icons-sharp">grid_view</span>
+                        <h3>Dashboard</h3>
+                    </a>
+                    <a href="page 1.html">
+                        <span class="material-symbols-outlined">
+                            child_care
+                            </span>
+                        <h3>Things to Keep in Mind When Choosing a School For Your Kids</h3>
+                    </a>
+                    <a href="page 2.html">
+                        <span class="material-symbols-outlined">
+                            bar_chart
+                            </span>
+                        <h3>Top 10 Schools Inside Valley with Quality Education</h3>
+                    </a>
+                    
+                    <a href="page 4.html">
+                        <span class="material-symbols-outlined">
+                            groups
+                            </span>
+                        <h3>Contact Us</h3>
+                    </a>
+                    
+                    
+                </div>
+            </aside>
+            <main>
+                <h1><span class="primary">Contact Us</span></h1>
+                <br>
+                <div class="form">
+                      <form action="./form.php">
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="fname">Your Full Name</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="fname" name="name" placeholder="Your full name..">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="lname">your Email Adddress</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="Your email address..">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="place">Your Address</label>
+                          </div>
+                          <div class="col-75">
+                            <select id="place" name="place">
+                              <option value="chabahil">Chabahil</option>
+                              <option value="maharajgunj">Maharajgunj</option>
+                              <option value="hadigaun">Hadigaun</option>
+                              <option value="mitrapark">Mitrapark</option>
+                              <option value="dhumbarahi">Dhumbarahi</option>
+                              <option value="bouddha">Bouddha</option>
+                              <option value="new baneshwor">New Baneshwor</option>
+                              <option value="tinkune">Tinkune</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="subject">Subject</label>
+                          </div>
+                          <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                                <input type="submit" value="Submit">
+                            </a>
+                        </div>
+                        </form>
+                </div>
+              </main>
+          </div>
+            <p><span class="primary">Schools of Kathmandu | Copyright &copy; 2023</span></p>
+            </body>
+        
+
+            
+
+</html>
